@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+	<url>
+		<loc>https://rustiming.com/</loc>
+		<lastmod>2024-08-19T10:54:53+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://rustiming.com/rms_ims_drs</loc>
+		<lastmod>2024-08-19T10:54:53+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://rustiming.com/seq</loc>
+		<lastmod>2024-08-19T10:54:53+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://rustiming.com/acr</loc>
+		<lastmod>2024-08-19T10:54:53+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://rustiming.com/ovr_ts</loc>
+		<lastmod>2024-08-19T10:54:53+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://rustiming.com/sis</loc>
+		<lastmod>2024-08-19T10:54:53+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://rustiming.com/policy</loc>
+		<lastmod>2024-08-19T10:54:53+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://rustiming.com/eula</loc>
+		<lastmod>2024-08-19T10:54:53+00:00</lastmod>
+	</url>
+</urlset>

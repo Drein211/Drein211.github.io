@@ -1,0 +1,45 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page38088291.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://rustiming\.com/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteCond %{HTTP_HOST} ^www\.rustiming.com [NC]
+RewriteRule ^(.*)$ https://rustiming\.com/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^rms_ims_drs$ page39000906.html [NC]
+RewriteRule ^rms_ims_drs/$ page39000906.html [NC]
+
+RewriteRule ^seq$ page39001473.html [NC]
+RewriteRule ^seq/$ page39001473.html [NC]
+
+RewriteRule ^acr$ page39001508.html [NC]
+RewriteRule ^acr/$ page39001508.html [NC]
+
+RewriteRule ^ovr_ts$ page39001357.html [NC]
+RewriteRule ^ovr_ts/$ page39001357.html [NC]
+
+RewriteRule ^sis$ page39001448.html [NC]
+RewriteRule ^sis/$ page39001448.html [NC]
+
+RewriteRule ^policy$ page36539538.html [NC]
+RewriteRule ^policy/$ page36539538.html [NC]
+
+RewriteRule ^eula$ page37001096.html [NC]
+RewriteRule ^eula/$ page37001096.html [NC]
+
+RewriteRule ^info$ page39001536.html [NC]
+RewriteRule ^info/$ page39001536.html [NC]
+
+RewriteRule ^old$ page36149925.html [NC]
+RewriteRule ^old/$ page36149925.html [NC]
+
+
